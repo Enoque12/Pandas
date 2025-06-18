@@ -17,4 +17,13 @@
 </ul>
 </p>
 <h1>Pandas</h1>
-<p></p>
+<p>Trata-se de uma biblioteca para análise de dados em Python, que possui diversos recursos para trabalharmos com dados. Com ela, podemos limpar, manipular, analisar e visualizar os dados.</p>
+<h1>Importar os dados</h1>
+<p>Para importar os dados precisarei:<br>
+    <ol>
+        <li>Importar a biblioteca Pandas</li>
+        <li>Usar o método read_csv() já que os dados estão num ficheiro .csv</li>
+        <li>Guardar o DataFrame numa variável</li>
+    </ol>
+</p>
+<h1>Verificar as características gerais da base de dados</h1>
