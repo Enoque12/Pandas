@@ -1,6 +1,4 @@
-
 ![INFOS](https://github.com/user-attachments/assets/fbe1e4e8-31da-4b31-be6f-2d97107edad5)
-
 
 <h1>Welcome</h1>
 <p>Esse é o meu projecto introdutório utilizando a biblioteca <strong>Pandas</strong> para análisar dados de aluguer de imóveis.<br>Temos as seguintes tarefas a serem realizadas com <strong>DataFrame</strong>:<br>
@@ -32,3 +30,5 @@
 </p>
 <h1>Verificar as características gerais da base de dados</h1>
 <p>Para verificar as características gerais da Base de dados usei o método <strong>info()</strong> que me retornou o tipo de dado de cada coluna.</p>
+<h1>Análise exploratória de dados</h1>
+<p>Continua...</p>
