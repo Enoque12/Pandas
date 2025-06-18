@@ -1,5 +1,3 @@
-https://file+.vscode-resource.vscode-cdn.net/c%3A/Users/Enoque%20Mandlate/Downloads/INFOS.jpg?version%3D1750280136475
-
 <h1>Welcome</h1>
 <p>Esse é o meu projecto introdutório utilizando a biblioteca <strong>Pandas</strong> para análisar dados de aluguer de imóveis.<br>Temos as seguintes tarefas a serem realizadas com <strong>DataFrame</strong>:<br>
 <ul>
