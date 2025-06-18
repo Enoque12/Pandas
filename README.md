@@ -1,3 +1,7 @@
+
+![INFOS](https://github.com/user-attachments/assets/fbe1e4e8-31da-4b31-be6f-2d97107edad5)
+
+
 <h1>Welcome</h1>
 <p>Esse é o meu projecto introdutório utilizando a biblioteca <strong>Pandas</strong> para análisar dados de aluguer de imóveis.<br>Temos as seguintes tarefas a serem realizadas com <strong>DataFrame</strong>:<br>
 <ul>
