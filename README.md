@@ -31,4 +31,31 @@
 <h1>Verificar as características gerais da base de dados</h1>
 <p>Para verificar as características gerais da Base de dados usei o método <strong>info()</strong> que me retornou o tipo de dado de cada coluna.</p>
 <h1>Análise exploratória de dados</h1>
-<p>Continua...</p>
+<p>
+    O processo de <b>Análise exploratória de dados(EDA)</b> consiste em buscar entender como são estruturados os dados que queremos analisar<br>
+    É um processo de caráter <b>investigativo</b>, onde tentamos compreender várias características como: os valores presentes nas colunas, os tipos de estrutura de dados, verificar se são dados qualitativos ou quantitativos, se há valores faltantes ou incomuns.<br>
+    Algumas perguntas que podemos fazer nesse momento são:
+    <ol>
+        <li>Quais os valores médios de aluguel por tipo de imóvel?</li>
+        <li>Qual o percentual de cada tipo de imóvel na nossa base de dados?</li>
+    </ol>
+</p>
+<h1>Quais os valores médios de aluguel por tipo de imóvel?</h1>
+<p>
+    Para responder a essa questão usei o método <b>groupby()</b> juntamente com o método <b>mean()</b> para poder calcular a média de aluguel por tipo de imóvel.
+</p>
+<h2>groupby()</h2>
+<p>
+    O método <b>groupby()</b> do Pandas permite agrupar e resumir dados de um DataFrame, com base em um ou mais critérios. Esses critérios podem ser variáveis numéricas ou categóricas, como colunas ou índices do DataFrame.<br>
+    O método <b>groupby()</b> funciona em conjunto com outras funções do Pandas, como a <b>sum de soma ou a mean que é a média.</b>Com essas funções, podemos fazer agregações conforme o agrupamento que realizamos.
+</p>
+<h1>Qual o percentual de cada tipo de imóvel na nossa base de dados?</h1>
+<p>
+  Nesse ponto, precisamos descobrir quais tipos de imóveis estão mais ou menos presentes na nossa base de dados.
+  Para responder essa questão usei os seguintes métodos:
+  <ul>
+    <li><b>unique()</b>: para pegar os valores unicos na base de dados.</li>
+    <li><b>value_counts(normalize=True)</b>: Conta quantas vezes cada um desses tipos aparecem na nossa base de dados. O parâmetro "normalize=True" permite que o método value_counts() nos retorne a quantidade em percentuais.</li>
+  </ul><br>
+    E no final criei um gráfico para uma melhor visualização com o método <b>plot()</b>. 
+</p>
