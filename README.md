@@ -94,9 +94,7 @@
 </p>
 <h2>Salvando os dados</h2>
 <p>
-    Finalmente para salvar os dados usei o método to_csv() para salvar a Base de dados com as remoções e os dados nulos tratados, pronta para entregar ao grupo de ML criar o modelo de previsão de preços de imóveis.
-
-    O método to_csv() possui alguns parâmetros que é necessário destacar:
-    Primeiro é o nome do documento segundo colocamos o index=False para não armazenar com os inices e podemos usar o "sep='tipo de separador'"
-
+    Finalmente para salvar os dados usei o método <b>to_csv()</b> para salvar a Base de dados com as remoções e os dados nulos tratados, pronta para entregar ao grupo de ML criar o modelo de previsão de preços de imóveis.
+    O método <b>to_csv()</b> possui alguns parâmetros que é necessário destacar:
+    Primeiro é o nome do documento segundo colocamos o <b>index=False</b> para não armazenar com os indices e podemos usar o <b>"sep='tipo de separador'"</b>.
 </p>
